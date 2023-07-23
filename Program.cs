@@ -55,7 +55,7 @@ internal class Program
             {
                 double x = (b2 - b1) / (k1 - k2);
                 double y = k1 * x + b1;
-                Console.WriteLine($" Точка пересечения имеет коорджинаты ({x},{y})");
+                Console.WriteLine($" Точка пересечения имеет координаты ({x},{y})");
             }
             else
                 Console.WriteLine($" Точек пересечения нет ");
